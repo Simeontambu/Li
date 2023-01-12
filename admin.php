@@ -1,6 +1,2 @@
 <?php include 'header.php' ?>
-<?php 
-$title ="Administration";
-
-
- ?>
+<?php $title ="Administration";?>
