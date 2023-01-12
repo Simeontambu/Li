@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Les fonctions</h1>
+    <script>
+        // x et y sont les parametre de notre fonction
+        // function multiplication (x,y)
+        // {
+        //     return(x*y);
+        // }
+        // var resultat = multiplication(5,10);
+        // alert(resultat);
+        var primitive = "Je suis une valeur primitive"
+        // Moi ce l'objet
+        //tout ce qui est entre accolade ce lepropriété de l'objet
+
+        var moi = {
+            prenom:"Simeon",
+            nom: "Tambu",
+            age: 24,
+        // Identité est une proprieté de l'objet moi mais on lui assigne une méthode
+            identite : function(){
+                return 'Prénom : ' + this.prenom +
+                       '\nNom : ' + this.nom + 
+                       '\nAge : ' + this.age ;
+            }
+        }
+        alert(moi.identite());
+    </script>
+    
+</body>
+</html>
