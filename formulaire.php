@@ -1,6 +1,6 @@
 <?php include 'header.php' ?>
 <?php 
-    
+      //Vérification de zone de saisie 
     if(!empty($_POST)){
         $errors=array();
         require_once 'conn.php';
@@ -49,7 +49,7 @@
         }
     }
 
-// ?>
+?>
 
 <form action="" method="POST" class="container w-50">
 <h1 class="text-center p-3 inscrite">S'inscire</h1>
@@ -63,36 +63,36 @@
         </div>
   <?php   endif; ?>
     <div class="form-group">
-    <label id="inscrit" for="">Nom</label>
-    <input type="text" name="nom" class="form-control " required>
+        <label id="inscrit" for="">Nom</label>
+        <input type="text" name="nom" class="form-control " required>
     </div>
     <div class="form-group">
-    <label id="inscrit" for="">Postnom</label>
-    <input type="text" name="postnom" class="form-control" required>
+        <label id="inscrit" for="">Postnom</label>
+        <input type="text" name="postnom" class="form-control" required>
+    </div>
+        <div class="form-group">
+        <label id="inscrit" for="">Prenom</label>
+        <input type="text" name="prenom" class="form-control " required>
     </div>
     <div class="form-group">
-    <label id="inscrit" for="">Prenom</label>
-    <input type="text" name="prenom" class="form-control " required>
-    </div>
-    <div class="form-group">
-    <label id="inscrit" for="">Objet</label>
-    <select name="objet" id="" class="form-control">
-    <option value=""></option>
-    <option value="cl">Conception des logiciels</option>
-    <option value="rt">Redaction Tfc</option>
-    <option value="ce">Cours d'encadrement</option>
-    </select>
+        <label id="inscrit" for="">Objet</label>
+        <select name="objet" id="" class="form-control">
+            <option value=""></option>
+            <option value="cl">Conception des logiciels</option>
+            <option value="rt">Redaction Tfc</option>
+            <option value="ce">Cours d'encadrement</option>
+        </select>
     </div>
     <div class="form-group ">
-    <label id="inscrit" for="">Télephone</label>
-    <input type="text" name="telephone" class="form-control " required>
+        <label id="inscrit" for="">Télephone</label>
+        <input type="text" name="telephone" class="form-control " required>
     </div>
     <div class="form-group">
-    <label id="inscrit" for="">Email</label>
-    <input type="email" name="email" class="form-control " required>
+        <label id="inscrit" for="">Email</label>
+        <input type="email" name="email" class="form-control " required>
     </div>
-    <label id="inscrit" for="">Adresse complet</label>
-    <input type="text" name="adresse" class="form-control " required>
+        <label id="inscrit" for="">Adresse complet</label>
+        <input type="text" name="adresse" class="form-control " required>
     </div>
     <button type="submit" class="btn btn-primary bg-dark w-50 " id="bg-dark">M'inscrire</button>
   

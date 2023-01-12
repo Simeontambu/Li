@@ -1,17 +1,16 @@
 <?php 
 
-$pdo = new PDO ('mysql:dbname=isc; host=localhost','root','');
-$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-$pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_OBJ);
-
-$matricule = $_POST['matricule'];
-$nom = $_POST['nom'];
-$postnom = $_POST['postnom'];
-$prenom = $_POST['prenom'];
-$sexe = $_POST['sexe'];
-$promotion = $_POST['promotion'];
-$insertion = "INSERT INTO nwmo ( matricule, nom, postnom, prenom , sexe, promotion) VALUES ('$matricule', '$nom', '$postnom', '$prenom', '$sexe', '$promotion' )";
-$pdo->exec($insertion);
+    $pdo = new PDO ('mysql:dbname=isc; host=localhost','root','');
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_OBJ);
+    $matricule = $_POST['matricule'];
+    $nom = $_POST['nom'];
+    $postnom = $_POST['postnom'];
+    $prenom = $_POST['prenom'];
+    $sexe = $_POST['sexe'];
+    $promotion = $_POST['promotion'];
+    $insertion = "INSERT INTO nwmo ( matricule, nom, postnom, prenom , sexe, promotion) VALUES ('$matricule', '$nom', '$postnom', '$prenom', '$sexe', '$promotion' )";
+    $pdo->exec($insertion);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -61,8 +60,5 @@ $pdo->exec($insertion);
     <button type="submit" class="btn btn-primary bg-dark w-50 " id="bg-dark">Enregistrer</button>
     </section>
 </form>
-    
-
-
 </body>
 </html>

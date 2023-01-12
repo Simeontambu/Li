@@ -10,12 +10,11 @@
 			<div class="col">
 				<p>
 				Aujourd'hui, 4 personnes composent notre équipe.
-
-Nous disposons à ce jour de deux diplomes en informatique, un entreprise informatique. 
+				Nous disposons à ce jour de deux diplomes en informatique, un entreprise informatique. 
 				</p>
 				<p>
 				Nos profils, expériences et compétences nous permettent de proposer une prestation globale parfaitement adaptée à vos besoins ponctuels ou permanents.
-Une des composantes majeures de li.net(Laboratoire d'informatisation) repose sur la qualification et la certification de ses équipes.
+				Une des composantes majeures de li.net(Laboratoire d'informatisation) repose sur la qualification et la certification de ses équipes.
 				</p>
 			</div>
 		</div>

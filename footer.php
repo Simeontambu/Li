@@ -4,12 +4,12 @@
 		<h2>A propos</h2>
 		<p>Li.net(Laboratoire d'informatisation) est un atelier des jeunes concepteurs, analystes et programmeurs
 		</p>
-	<ul  class="icon">
-		<li><a href="#"><img src="img/facebook_old_48px.png"></a></li>
-		<li><a href="#"><img src="img/whatsapp_48px.png"></a></li>
-		<li><a href="#"><img src="img/twitter_48px.png"></a></li>
-		<li><a href="#"><img src="img/instagram_48px.png"></a></li>
-	</ul>
+		<ul  class="icon">
+			<li><a href="#"><img src="img/facebook_old_48px.png"></a></li>
+			<li><a href="#"><img src="img/whatsapp_48px.png"></a></li>
+			<li><a href="#"><img src="img/twitter_48px.png"></a></li>
+			<li><a href="#"><img src="img/instagram_48px.png"></a></li>
+		</ul>
 	</div>
 	<div class="propos contact " id="contact">
 		<h2>Contactez-nous</h2>
