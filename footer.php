@@ -22,7 +22,7 @@
 			<li>
 				<span><img src="img/phone_48px.png"></span>
 				<p><a href="tel: 243814901885">+243 814901885</a><br>
-				<a href="tel: 243811859356">    811859356 </a></p>
+				<a href="tel: 243811859356">    999575732 </a></p>
 			</li>
 			<li>
 				<span><img src="img/gmail_48px.png"></span>
